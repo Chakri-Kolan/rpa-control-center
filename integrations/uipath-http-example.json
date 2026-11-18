@@ -1,0 +1,16 @@
+{
+  "description": "Map these values to UiPath HTTP Request activities.",
+  "base_url": "http://127.0.0.1:8080",
+  "headers": {
+    "Content-Type": "application/json",
+    "X-API-Token": "read-from-secure-credential-store"
+  },
+  "lease": {
+    "method": "POST",
+    "path": "/api/v1/queues/sap-orders/lease",
+    "body": {
+      "robot_id": "uipath-robot-01",
+      "lease_seconds": 300
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Use the desktop HTTP action with these local API values.",
+  "base_url": "http://127.0.0.1:8080",
+  "token_source": "Windows Credential Manager or environment injection",
+  "workflow": [
+    "lease a work item",
+    "execute the desktop or SAP task",
+    "complete the item on success",
+    "fail the item with a sanitized error on failure"
+  ]
+}
